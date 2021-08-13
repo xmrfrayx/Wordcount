@@ -1,0 +1,16 @@
+<h1>Word Count</>
+
+<!This is the input form section, and the submit button afterwards>
+<form action="{%url 'count' %}">
+<!define the box>
+  <textarea name="fulltext" rows="5" cols="40"></textarea>
+  <br />
+  <!define the button>
+  <input type="submit" name="" value="Count!" />
+</form>
+<!end of form.>
+<br/>
+<br/>
+<br/>
+<!this is the internal link and reference to the about page, and the link text>
+<a href="{% url 'about' %}">About this Website</a>
